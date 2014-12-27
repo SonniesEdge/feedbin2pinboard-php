@@ -2,9 +2,9 @@
 include 'pinboard-api.php';
 
 // SETTINGS
-$pinboardapi  = '';
-$feedbinurl   = '';
-$localstorage = './storage.json';
+$pinboardapi  = ''; // Pinboard apitoken username:random
+$feedbinurl   = ''; //Feedbin starred entries URL
+$localstorage = './storage.json'; // Local storage path
 
 
 // initialise pinboard object
